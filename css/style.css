@@ -1,0 +1,154 @@
+@import url(reset.css);
+.head {
+  background: #2d2d2d;
+  height: 30px; }
+
+.header {
+  width: 950px;
+  margin: 0 auto; }
+  .header .h-left {
+    float: left; }
+    .header .h-left h1 {
+      float: left;
+      margin-right: 3px; }
+      .header .h-left h1 img {
+        margin-top: 3px; }
+    .header .h-left form {
+      float: left; }
+      .header .h-left form input {
+        float: left;
+        margin-top: 2px; }
+      .header .h-left form img {
+        float: left;
+        margin-top: 3px; }
+    .header .h-left ul {
+      float: left; }
+      .header .h-left ul li {
+        float: left;
+        line-height: 30px; }
+        .header .h-left ul li a {
+          color: #f8f8f8;
+          margin-left: 10px; }
+  .header .h-right {
+    float: right; }
+    .header .h-right img {
+      float: left;
+      margin-top: 3px;
+      margin-right: 5px; }
+    .header .h-right p {
+      float: left;
+      margin-top: 5px;
+      color: #f8f8f8; }
+
+.nav {
+  width: 950px;
+  margin: 0 auto; }
+  .nav ul li {
+    float: left;
+    line-height: 45px;
+    margin-right: 15px; }
+
+.banner {
+  width: 950px;
+  margin: 0 auto; }
+
+.banner2 {
+  width: 950px;
+  margin: 0 auto;
+  width: 950px;
+  height: 75px;
+  margin-top: 15px; }
+  .banner2 .b-left {
+    float: left; }
+    .banner2 .b-left h1 {
+      float: left; }
+    .banner2 .b-left h2 {
+      float: left;
+      margin: 0 10px; }
+    .banner2 .b-left ul {
+      float: left; }
+      .banner2 .b-left ul li {
+        margin-top: 5px; }
+        .banner2 .b-left ul li a {
+          margin-left: 2px; }
+  .banner2 .b-right {
+    float: right; }
+    .banner2 .b-right h3 {
+      float: left; }
+    .banner2 .b-right h4 {
+      float: left;
+      margin: 0 15px; }
+    .banner2 .b-right h5 {
+      float: left;
+      margin: 0 15px; }
+    .banner2 .b-right ul {
+      float: left; }
+    .banner2 .b-right .con {
+      float: left; }
+      .banner2 .b-right .con input {
+        float: left; }
+      .banner2 .b-right .con img {
+        float: left; }
+      .banner2 .b-right .con p {
+        float: left;
+        margin-top: 3px; }
+
+.navs {
+  background: #0160be; }
+
+.nav2 {
+  width: 950px;
+  margin: 0 auto;
+  height: 42px; }
+  .nav2 .n-left {
+    float: left;
+    line-height: 42px; }
+    .nav2 .n-left img {
+      float: left;
+      margin-top: 10px; }
+    .nav2 .n-left ul {
+      float: left; }
+      .nav2 .n-left ul li {
+        float: left;
+        margin-left: 5px;
+        _margin-left: 5px; }
+        .nav2 .n-left ul li a {
+          color: #fff; }
+  .nav2 .n-right {
+    float: right;
+    line-height: 42px; }
+    .nav2 .n-right img {
+      float: left;
+      margin-top: 10px; }
+    .nav2 .n-right ul {
+      float: left; }
+      .nav2 .n-right ul li {
+        float: left;
+        margin-left: 5px;
+        _margin-left: 5px; }
+        .nav2 .n-right ul li a {
+          color: #fff; }
+
+.main {
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 20px; }
+  .main .m-left {
+    float: left; }
+  .main .m-center {
+    float: left; }
+    .main .m-center h1 {
+      color: #004c8e;
+      font-size: 16px; }
+      .main .m-center h1.one {
+        margin-top: 20px; }
+    .main .m-center ul li {
+      line-height: 36px; }
+      .main .m-center ul li em {
+        color: #004C8E; }
+      .main .m-center ul li a {
+        color: red; }
+  .main .m-right {
+    float: right; }
+
+/*# sourceMappingURL=style.css.map */

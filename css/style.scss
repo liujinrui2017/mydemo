@@ -1,0 +1,227 @@
+@import "reset.css";
+
+//kuan gao beijingse
+@mixin whb($w,$h,$b){
+    width: $w;
+    height: $h;
+    background: $b;
+}
+
+//fu dong
+@mixin f($f:left){
+    float: $f;
+}
+
+//ban xin ju zhong
+@mixin w950{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.head{
+    background: #2d2d2d;
+    height: 30px;
+}
+
+.header{
+    @include w950;
+    .h-left{
+        @include f;
+        h1{
+            @include f;
+            margin-right: 3px;
+            img{
+                margin-top: 3px;
+            }
+        }
+        form{
+            @include f;
+            input{
+                @include f;
+                margin-top: 2px;
+            }
+            img{
+                @include f;
+                margin-top: 3px;
+            }
+        }
+        ul{
+            @include f;
+            li{
+                @include f;
+                line-height: 30px;
+                a{
+                    color: #f8f8f8;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    
+    .h-right{
+        @include f(right);
+        img{
+            @include f;
+            margin-top: 3px;
+            margin-right: 5px;
+        }
+        p{
+            @include f;
+            margin-top: 5px;
+            color: #f8f8f8;
+        }
+    }
+    
+}
+
+
+.nav{
+    @include w950;
+    ul{
+        li{
+            @include f;
+            line-height: 45px;
+            margin-right: 15px;
+        }
+    }
+}
+
+
+.banner{
+    @include w950;
+}
+
+
+.banner2{
+    @include w950;
+    @include whb(950px,75px,null);
+    margin-top: 15px;
+    .b-left{
+        @include f;
+        h1{
+            @include f;
+        }
+        h2{
+            @include f;
+            margin: 0 10px;
+        }
+        ul{
+            @include f;
+            li{
+                margin-top: 5px;
+                a{
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+    .b-right{
+        @include f(right);
+        h3{
+            @include f;
+        }
+        h4{
+            @include f;
+            margin: 0 15px;
+        }
+        h5{
+            @include f;
+            margin: 0 15px;
+        }
+        ul{
+            @include f;
+        }
+        .con{
+            @include f;
+            input{
+                @include f;
+            }
+            img{
+                @include f;
+            }
+            p{
+                @include f;
+                margin-top: 3px;
+            }
+        }
+    }
+}
+
+.navs{
+    background: #0160be;
+}
+.nav2{
+    @include w950;
+    height: 42px;
+    .n-left{
+        @include f;
+        line-height: 42px;
+        img{
+            @include f;
+            margin-top: 10px;
+        }
+        ul{
+            @include f;
+            li{
+                @include f;
+                margin-left: 5px;
+                _margin-left: 5px;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .n-right{
+        @include f(right);
+        line-height: 42px;
+        img{
+            @include f;
+            margin-top: 10px;
+        }
+        ul{
+            @include f;
+            li{
+                @include f;
+                margin-left: 5px;
+                _margin-left: 5px;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.main{
+    @include w950;
+    margin-top: 20px;
+    .m-left{
+        @include f;
+    }
+    .m-center{
+        @include f;
+        h1{
+            color: #004c8e;
+            font-size: 16px;
+            &.one{
+                margin-top: 20px;
+            }
+        }
+        ul{
+            li{
+                line-height: 36px;
+                em{
+                    color: #004C8E;
+                }
+                a{
+                    color: red;
+                }
+            }
+        }
+    }
+    .m-right{
+        @include f(right);
+    }
+}
